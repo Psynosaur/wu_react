@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.css'
+import 'bulma-tooltip/dist/css/bulma-tooltip.min.css'
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

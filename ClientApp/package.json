@@ -15,6 +15,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "rimraf": "^3.0.2",
+    "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",
     "workbox-broadcast-update": "^6.5.4",
@@ -54,7 +55,8 @@
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/"
+    "lint": "eslint ./src/",
+    "analyze": "source-map-explorer build/static/js/main.*"
   },
   "eslintConfig": {
     "extends": [

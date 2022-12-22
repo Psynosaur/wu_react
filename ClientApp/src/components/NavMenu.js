@@ -42,19 +42,19 @@ export class NavMenu extends Component {
           <Navbar.Menu>
             <Navbar.Container>
               
-                  <Navbar.Item href="/counter">
-                    Counter
-                  </Navbar.Item>
-                  <Navbar.Item href="/fetch-data">
-                    Fetch Data
-                  </Navbar.Item>
-                  <Navbar.Divider />
-                  <Navbar.Item href="/charts">
-                    Charts
-                  </Navbar.Item>
+                  {/*<Navbar.Item href="/counter">*/}
+                  {/*  Counter*/}
+                  {/*</Navbar.Item>*/}
+                  {/*<Navbar.Item href="/fetch-data">*/}
+                  {/*  Fetch Data*/}
+                  {/*</Navbar.Item>*/}
+                  {/*<Navbar.Divider />*/}
+                  {/*<Navbar.Item href="/charts">*/}
+                  {/*  Charts*/}
+                  {/*</Navbar.Item>*/}
               
-              <Navbar.Item href="#">
-                Second
+              <Navbar.Item href="/day">
+                Day
               </Navbar.Item>
             </Navbar.Container>
             <Navbar.Container align="end">
